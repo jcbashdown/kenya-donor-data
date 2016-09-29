@@ -28,3 +28,4 @@ npm test
 - Using leaflet as the platform client seems to use it and there is a react integration I would like to explore. React may be overkill but if I get to the final features it will be alot easier and it can be quite difficult to cleanly retrofit in my experience.
 - Using skeleton - I want to try it out!
 - Copying css and image assets to public which may not be the best solution but it gets things up and running quickly. 
+- I think there would be advantages in the react approach in the long run but there is a learning curve I didn't expect with some of these dependencies - particularly clusting. Taking longer than expected.

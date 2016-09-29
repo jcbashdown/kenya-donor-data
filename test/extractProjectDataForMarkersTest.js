@@ -13,16 +13,16 @@ describe('extractProjectData', () => {
         var result = extractProjectDataForMarkers(projectsWithKeys);
         var first_result = result[0];
         
-        expect('location' in first_result).to.equal(true);
-        expect(first_result.location[0]).to.equal(-4.43763300000);
-        expect(first_result.location[1]).to.equal(39.51327200000);
+        expect('position' in first_result).to.equal(true);
+        expect(first_result.position['lat']).to.equal(-4.43763300000);
+        expect(first_result.position['lng']).to.equal(39.51327200000);
         expect('title' in first_result).to.equal(true);
         expect('description' in first_result).to.equal(true);
         expect('objectives' in first_result).to.equal(true);
         expect('id' in first_result).to.equal(true);
 
-        expect(result[1].location[0]).to.equal(8.965);
-        expect(result[1].location[1]).to.equal(-37.998);
+        expect(result[1].position['lat']).to.equal(8.965);
+        expect(result[1].position['lng']).to.equal(-37.998);
 
         expect(result.length).to.equal(2);
     });
