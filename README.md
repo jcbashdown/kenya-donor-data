@@ -24,6 +24,7 @@ npm test
 #Notes
 ------
 
+- I've taken a rather measures slow approach as I think it's important to show how I would deliver features and my normal habits of working on non throwaway projects.
 - Using leaflet as the platform client seems to use it and there is a react integration I would like to explore. React may be overkill but if I get to the final features it will be alot easier and it can be quite difficult to cleanly retrofit in my experience.
 - Using skeleton - I want to try it out!
 - Copying css and image assets to public which may not be the best solution but it gets things up and running quickly. 
