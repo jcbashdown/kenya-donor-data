@@ -5,6 +5,9 @@
         "mocha": true
     },
     "extends": "eslint:recommended",
+    "plugins": [
+        "react"
+    ],
     "parserOptions": {
         "ecmaFeatures": {
             "experimentalObjectRestSpread": true,
@@ -29,5 +32,6 @@
             "error",
             "always"
         ]
-    }
+    },
+    "extends": ["eslint:recommended", "plugin:react/recommended"]
 }
