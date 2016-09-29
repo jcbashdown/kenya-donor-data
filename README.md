@@ -1,1 +1,29 @@
-Basic javascript boilerplate setup using npm, eslint, mocha and chai for testing, an express server and webpack + babel for transpiling es6 features. Code is in lib.
+#How to run
+-----------
+
+- As the bundle.js is included it is possible to simply go to `<path>/<to>/kenya-donor-data/index.html`
+
+
+- If you wish to make changes:
+
+```
+npm install # ensure npm version 3 as it is more chilled out about dependency conflicts
+npm start
+```
+
+- After this, go to http://localhost:3000/
+
+#Tests
+-----------
+
+```
+npm install # ensure npm version 3 as it is more chilled out about dependency conflicts
+npm test 
+```
+
+#Notes
+------
+
+- Using leaflet as the platform client seems to use it and there is a react integration I would like to explore. React may be overkill but if I get to the final features it will be alot easier and it can be quite difficult to cleanly retrofit in my experience.
+- Using skeleton - I want to try it out!
+- Copying css and image assets to public which may not be the best solution but it gets things up and running quickly. 

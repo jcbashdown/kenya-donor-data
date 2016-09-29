@@ -19,6 +19,8 @@
   "homepage": "https://github.com/jcbashdown/kenya-donor-data",
   "dependencies": {
     "express": "^4.14.0",
+    "getskeleton": "^2.0.4-2",
+    "leaflet": "^1.0.0",
     "webpack": "^1.13.2"
   },
   "devDependencies": {
